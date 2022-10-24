@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Italiana&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Italiana&family=Patrick+Hand&family=Roboto+Slab:wght@500&display=swap');
+
+body {
+    background-image: linear-gradient(102.4deg, rgba(253, 189, 85, 1) 7.8%, rgba(249, 131, 255, 1) 100.3%);
+    /* font-family: 'Alumni Sans Pinstripe', sans-serif; */
+    font-family: 'Italiana', serif;
+    /* font-family: 'Roboto Slab', serif; */
+}
+
+.container {
+    box-shadow: rgb(0 0 0 / 22%) 0px 30px 25px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 14%) 0px 4px 6px, rgb(0 0 0 / 3%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    padding: 3%;
+    margin: auto;
+    width: 70%;
+    border-radius: 22% 5% 19% 5%;
+    transition: all 1s linear;
+}
+
+input {
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: 0px;
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    word-spacing: 2rem;
+    width: 60%;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    font-size: 1rem;
+    margin-right: 1%;
+}
+
+/* CSS */
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    word-spacing: 2%;
+}
